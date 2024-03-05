@@ -15,10 +15,10 @@ function displayusers(data){
             <h3>${user.id}</h3>
             <h4>${user.name}</h4>
             <h4>${user.username}</h4>
-            <a href="${user.email}"</a>
+            <a href="${user.email}"></a>
             <p>${user.address}</p>
             <p>${user.phone}</p>
-            <a href="${user.website}"</a>
+            <a href="${user.website}"></a>
             <p>${user.company}</p>
         `;
         postDetails.appendChild(div);
